@@ -111,6 +111,8 @@ scaler.fit(data_sample)
 
 # Initialize Dash app
 app = dash.Dash(__name__)
+server = app.server
+
 app.title = "Cryptocurrency Dashboard"
 
 app.layout = html.Div([
