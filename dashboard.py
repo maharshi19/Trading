@@ -683,4 +683,5 @@ def update_live_price(n_intervals):
 
 # Run the app
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    app.run_server(debug=True, port=int(os.environ.get("PORT", 8050)))
+
