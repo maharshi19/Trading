@@ -1,4 +1,5 @@
-azure_storage==0.37.0
+azure-storage-blob
+azure-storage-queue
 dash==2.18.1
 joblib==1.4.2
 keras_tuner==1.4.7
